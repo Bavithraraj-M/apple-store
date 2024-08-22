@@ -1,0 +1,68 @@
+[
+    {
+        "id":"pad1",
+        "name":"iPad Pro 11″",
+        "price":99900.00,
+        "display":"Ultra Retina XDR display² with ProMotion, P3­ wide colour and True Tone. Optional nano-texture glass.",
+        "camera":"Pro camera with LiDAR Scanner, and landscape 12MP Ultra Wide front camera with Centre Stage",
+        "processor":"Apple M4 chip delivers outrageous performance for pro workflows and all-day battery life",
+        "connectivity":"Stay connected with Wi-Fi 6E and 5G for superfast downloads and high-quality streaming",
+        "otherSpecs":"Compatible with Apple Pencil Pro, Apple Pencil (USB-C), Magic Keyboard for iPad Pro and Smart Folio",
+        "imgUrl":"/images/ipads/ipadpro11.png"
+    },
+    {
+        "id":"pad2",
+        "name":"iPad Pro 13″",
+        "price":129900.00,
+        "display":"Ultra Retina XDR display² with ProMotion, P3­ wide colour and True Tone. Optional nano-texture glass.",
+        "camera":"Pro camera with LiDAR Scanner, and landscape 12MP Ultra Wide front camera with Centre Stage",
+        "processor":"Apple M4 chip delivers outrageous performance for pro workflows and all-day battery life",
+        "connectivity":"Stay connected with Wi-Fi 6E and 5G for superfast downloads and high-quality streaming",
+        "otherSpecs":"Compatible with Apple Pencil Pro, Apple Pencil (USB-C), Magic Keyboard for iPad Pro and Smart Folio",
+        "imgUrl":"/images/ipads/ipadpro13.png"
+    },
+    {
+        "id":"pad3",
+        "name":"iPad Air 11″",
+        "price":59900.00,
+        "display":"Liquid Retina display delivers a stunning, immersive viewing experience",
+        "camera":"Landscape 12MP Ultra Wide front camera with Centre Stage for a great video-calling experience",
+        "processor":"Apple M2 chip powers a huge leap in performance and all-day battery life",
+        "connectivity":"Stay connected with Wi-Fi 6E and 5G for superfast downloads and high-quality streaming",
+        "otherSpecs":"Compatible with Apple Pencil Pro, Apple Pencil (USB-C), Magic Keyboard and Smart Folio",
+        "imgUrl":"/images/ipads/ipadair11.png"
+    },
+    {
+        "id":"pad4",
+        "name":"iPad Air 13″",
+        "price":79900.00,
+        "display":"Liquid Retina display delivers a stunning, immersive viewing experience",
+        "camera":"Landscape 12MP Ultra Wide front camera with Centre Stage for a great video-calling experience",
+        "processor":"Apple M2 chip powers a huge leap in performance and all-day battery life",
+        "connectivity":"Stay connected with Wi-Fi 6E and 5G for superfast downloads and high-quality streaming",
+        "otherSpecs":"Compatible with Apple Pencil Pro, Apple Pencil (USB-C), Magic Keyboard and Smart Folio",
+        "imgUrl":"/images/ipads/ipadair13.png"
+    },
+    {
+        "id":"pad5",
+        "name":"iPad",
+        "price":59900.00,
+        "display":"All-screen design with 27.7 cm (10.9 inch) Liquid Retina display¹ delivers an amazing viewing experience",
+        "camera":"Landscape 12MP Ultra Wide front camera with Centre Stage for a great video-calling experience",
+        "processor":"The A14 Bionic chip lets you run multiple apps and work smoothly between them",
+        "connectivity":"Stay connected with Wi-Fi 6",
+        "otherSpecs":"Compatible with Apple Pencil (USB‑C), Apple Pencil (1st generation),² Magic Keyboard Folio and Smart Folio",
+        "imgUrl":"/images/ipads/ipad.png"
+    },
+    {
+        "id":"pad6",
+        "name":"iPad mini″",
+        "price":59900.00,
+        "display":"Stunning 21.08 cm (8.3 inch) Liquid Retina display with True Tone and P3 wide colo",
+        "camera":"12MP Ultra Wide front camera with Centre Stage for great video calls",
+        "processor":"A15 Bionic chip for incredible performance and all-day battery life",
+        "connectivity":"Stay connected with Wi-Fi 6",
+        "otherSpecs":"Compatible with Apple Pencil (2nd generation), Apple Pencil (USB-C) and Smart Folio",
+        "imgUrl":"/images/ipads/ipadmini.png"
+    }
+]

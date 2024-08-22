@@ -1,0 +1,35 @@
+[
+    {
+        "id":"watch1",
+        "name":"Apple Watch Series 9",
+        "price":41900.00,
+        "display":"Brighter Always-On Retina display with a durable, crack-resistant front crystal",
+        "feature1":"Get deep insights into your physical and mental health including heart rate,  footnote  1 blood oxygen levels,  footnote  2 mood and more",
+        "feature2":"With advanced workout metrics and views",
+        "feature3":"The all-new S9 SiP powers a magical new way to use your watch without touching the screen",
+        "feature4":"Innovative safety features including Emergency SOS,  footnote  3 Fall Detection and Crash Detection",
+        "imgUrl":"/images/applewatches/applewatchseries9.png"
+    },
+    {
+        "id":"watch2",
+        "name":"Apple Watch Ultra 2",
+        "price":89900.00,
+        "display":"Tough 49mm titanium case with customisable Action button strikes a balance with weight, ruggedness and corrosion resistance",
+        "feature1":"All-new S9 SiP powers our brightest display ever and a magical new way to use your watch without touching the screen",
+        "feature2":"The most accurate GPS in a sports watch in dense urban environments  footnote",
+        "feature3":"Up to 36 hours of battery life, up to 72 hours on low power settings footnote  2 and up to 17 hours of workout use in Low Power Mode",
+        "feature4":"Pair with three strap styles specialised for outdoor adventure, water sports and all workout types",
+        "imgUrl":"/images/applewatches/applewatchultra2.png"
+    },
+    {
+        "id":"watch3",
+        "name":"Apple Watch SE",
+        "price":29900.00,
+        "display":"Retina display",
+        "feature1":"Call and message even when you don't have your iPhone nearby with GPS + Cellular models footnote  ",
+        "feature2":"Get advanced workout metrics and views",
+        "feature3":"Track your sleep stages with the Sleep app, and check your heart rate anytime",
+        "feature4":"Set up any Apple Watch GPS + Cellular model for your kids, even if they don’t have their own iPhone yet",
+        "imgUrl":"/images/applewatches/applewatchse.png"
+    }
+]

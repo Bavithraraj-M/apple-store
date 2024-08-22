@@ -1,0 +1,90 @@
+[
+    {
+        "id":"phone1",
+        "name":"iPhone 15 Pro Max",
+        "price":154000.00,
+        "display":"17.0 cm (6.7 inch) Super Retina XDR display footnote ¹ featuring ProMotion, Always-On and Dynamic Island",
+        "camera":"48MP Main camera for super-high-resolution photos and 5x Telephoto camera, the longest optical zoom in iPhone ever",
+        "processor":"A17 Pro chip delivers a massive leap in graphics performance, transforming mobile gaming",
+        "design":"Strong and light titanium design with Action button — a fast track to your favourite feature",
+        "otherSpecs":"USB-C connector with USB 3 for up to 20x faster transfer speeds footnote ² and new pro workflows",
+        "imgUrl":"/images/iphones/iphone15promaxs.png"
+    },
+    {
+        "id":"phone2",
+        "name":"iPhone 15 Pro",
+        "price":129800.00,
+        "display":"15.5 cm (6.1 inch) Super Retina XDR display footnote ¹ featuring ProMotion, Always-On and Dynamic Island",
+        "camera":"48MP Main camera for super-high-resolution photos and 3x Telephoto camera",
+        "processor":"A17 Pro chip delivers a massive leap in graphics performance, transforming mobile gaming",
+        "design":"Strong and light titanium design with Action button — a fast track to your favourite feature",
+        "otherSpecs":"USB-C connector with USB 3 for up to 20x faster transfer speeds footnote ² and new pro workflows",
+        "imgUrl":"/images/iphones/iphone15pros.png"
+    },
+    {
+        "id":"phone3",
+        "name":"iPhone 15",
+        "price":79600.00,
+        "display":"15.5 cm (6.1 inch) durable colour-infused glass and aluminium design footnote ◊ with Ceramic Shield front",
+        "camera":"48MP Main camera with 2x Telephoto captures breathtaking detail up close or far away",
+        "processor":"A16 Bionic powers computational photography and smooth gaming performance with great efficiency for all-day battery life",
+        "design":"Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else",
+        "otherSpecs":"Connect and charge with USB-C",
+        "imgUrl":"/images/iphones/iphone15s.png"
+    },
+    {
+        "id":"phone4",
+        "name":"iPhone 15 Plus",
+        "price":89600.00,
+        "display":"17.0 cm (6.7 inch) durable colour-infused glass and aluminium design footnote ◊ with Ceramic Shield front",
+        "camera":"48MP Main camera with 2x Telephoto captures breathtaking detail up close or far away",
+        "processor":"A16 Bionic powers computational photography and smooth gaming performance with great efficiency for all-day battery life",
+        "design":"Dynamic Island bubbles up alerts and Live Activities — so you don’t miss them while you’re doing something else",
+        "otherSpecs":"Connect and charge with USB-C",
+        "imgUrl":"/images/iphones/iphone15pluss.png"
+    },
+    {
+        "id":"phone5",
+        "name":"iPhone 14",
+        "price":69600.00,
+        "display":"15.4 cm (6.1 inch) durable design footnote ¹ with Ceramic Shield and water and dust resistance",
+        "camera":"A Pro-level Main camera and advanced image processing for sensational shots in all kinds of light",
+        "processor":"A15 Bionic, the same super-speedy chip that’s in iPhone 13 Pro",
+        "design":"Superfast 5G. With SmartData mode, iPhone downshifts automatically to save power when you don’t need all that speed.",
+        "otherSpecs":"All-day battery life with up to 20 hours of video playback footnote 2",
+        "imgUrl":"/images/iphones/iphone14s.png"
+    },
+    {
+        "id":"phone6",
+        "name":"iPhone 14 Plus",
+        "price":79600.00,
+        "display":"16.95 cm (6.7 inch) durable design footnote ¹ with Ceramic⁠⁠ Shield and water and dust resistance",
+        "camera":"A Pro-level Main camera and advanced image processing for sensational shots in all kinds of light",
+        "processor":"A15 Bionic, the same super-speedy chip that’s in iPhone 13 Pro",
+        "design":"Superfast 5G. With SmartData mode, iPhone downshifts automatically to save power when you don’t need all that speed.³",
+        "otherSpecs":"All-day battery life with up to 26 hours of video playback",
+        "imgUrl":"/images/iphones/iphone14pluss.png"
+    },
+    {
+        "id":"phone7",
+        "name":"iPhone 13",
+        "price":59600.00,
+        "display":"15.5 cm (6.1 inch) Super Retina XDR display",
+        "camera":"Dual-camera system for incredible low-light photos and videos",
+        "processor":"A15 Bionic with 4-core GPU for lightning-fast performance",
+        "design":"Ceramic Shield, and water and dust resistance footnote",
+        "otherSpecs":"Superfast 5G. With SmartData mode, iPhone downshifts automatically to save power when you don’t need all that speed",
+        "imgUrl":"/images/iphones/iphone13s.png"
+    },
+    {
+        "id":"phone8",
+        "name":"iPhone se",
+        "price":47600.00,
+        "display":"11.94 cm (4.7 inch) Retina HD display footnote ¹ that’s bright, colourful and sharp",
+        "camera":"Smarter camera makes automatic adjustments so faces, places, everything looks fabulous",
+        "processor":"A15 Bionic, the same superpowerful chip that’s in iPhone 13",
+        "design":"Home button with Touch ID — securely unlock and sign into apps",
+        "otherSpecs":"5G for fast downloads and high-quality streaming",
+        "imgUrl":"/images/iphones/iphoneses.png"
+    }
+]
