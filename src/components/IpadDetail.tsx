@@ -5,6 +5,8 @@ import DialogTitle from "@mui/material/DialogTitle";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { useTheme } from "@mui/material/styles";
+import { useBag } from "../context/BagContext";
+import Button from "@mui/material/Button";
 
 interface Item {
   id: string;
@@ -26,6 +28,19 @@ interface ItemDetailModalProps {
 
 const IpadDetails: React.FC<ItemDetailModalProps> = ({ open, onClose, item }) => {
   const theme = useTheme();
+  const { addToBag } = useBag(); 
+
+  const handleAddToBag = () => {
+    if (item) {
+      addToBag({
+        id: item.id,
+        name: item.name,
+        price: item.price,
+        imgUrl: item.imgUrl,
+        quantity: 0
+      });
+    }
+  };
 
   return (
     <Dialog 
@@ -50,6 +65,21 @@ const IpadDetails: React.FC<ItemDetailModalProps> = ({ open, onClose, item }) =>
               alt={item.name}
               style={{ width: '100%', height: 'auto', display: 'block' }}
             />
+            <Box sx={{ display: 'flex', justifyContent: 'space-between', marginTop: '5rem' }}>
+              <Button
+                variant="contained"
+                sx={{  borderRadius: "2rem" }}
+                onClick={handleAddToBag}
+              >
+                Add to Bag
+              </Button>
+              <Button
+                variant="contained"
+                sx={{ borderRadius: "2rem" }}
+              >
+                Buy
+              </Button>
+            </Box>
           </Box>
         )}
         {item && (

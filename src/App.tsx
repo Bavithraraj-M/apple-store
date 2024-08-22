@@ -1,7 +1,7 @@
 import "./App.scss";
 import { Routes, Route } from "react-router-dom"
 import Home from "./pages/Home"
-import About from "./pages/About"
+import Support from "./pages/Support"
 import Iphone from "./pages/Iphone";
 import Ipad from "./pages/Ipad";
 import Navbar from "./components/Navbar"
@@ -10,6 +10,8 @@ import Mac from "./pages/Mac";
 import AppleWatch from "./pages/Applewatch";
 import Account from "./pages/Account";
 import Bag from "./pages/Bag";
+import Footer from "./components/Footer";
+import { ClassNames } from "@emotion/react";
 
 
 function App() {
@@ -24,10 +26,11 @@ function App() {
             <Route path="/iPad" element={<Ipad />} />
             <Route path="/mac" element={<Mac />} />
             <Route path="/watch" element={<AppleWatch />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/support" element={<Support />} />
             <Route path="/account" element={<Account />} />
             <Route path="/bag" element={<Bag />} />
-          </Routes>  
+          </Routes>
+          <Footer />  
       </>
     );
 }

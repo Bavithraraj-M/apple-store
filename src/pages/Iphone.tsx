@@ -8,8 +8,7 @@ import { useTheme } from "@mui/material/styles";
 import storeItems from "../data/iphones.json";
 import IphoneDetails from "../components/IphoneDetail";
 import Button from "@mui/material/Button";
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import { useBag } from '../context/BagContext';  // Import the useBag hook
+import { useBag } from '../context/BagContext'; 
 
 interface StoreItem {
   id: string; 
@@ -52,9 +51,14 @@ export default function Iphone() {
 
   return (
     <Box display="flex" flexDirection="column" minHeight="100vh" padding="2rem">
-      <Typography variant="h3" style={{ margin: "0.5rem 2rem 1.5rem 2rem" }}>
-        Shop iPhone
+      <Box display="flex" justifyContent="space-between" style={{ margin: "1.5rem 4rem 3rem 4rem" }}>
+      <Typography variant="h2" fontWeight="bold" >
+        iPhone
       </Typography>
+      <Typography variant="h5" fontWeight="bold" paddingTop="1rem">
+        Designed to be loved
+      </Typography>
+      </Box>
       <Box display="flex" gap="5rem" justifyContent="center" flexWrap="wrap">
         {storeItems.map((item) => (
           <Card
@@ -63,7 +67,7 @@ export default function Iphone() {
               maxWidth: 500,
               marginBottom: "20px",
               borderRadius: "1rem",
-              transition: "transform 1s ease, box-shadow 0.3s ease",
+              transition: "transform .7s ease, box-shadow .3s ease",
               '&:hover': {
                 transform: 'scale(1.05)',
                 boxShadow: theme.shadows[5],
