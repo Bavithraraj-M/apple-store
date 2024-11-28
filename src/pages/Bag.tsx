@@ -9,7 +9,7 @@ export default function Bag() {
   const totalPrice = bagItems.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
   return (
-    <Box display="flex" padding="2rem" height="100vh">
+    <Box display="flex" padding="2rem" height="80vh">
       <Box flex={2} overflow="auto" marginRight="2rem">
         <Typography variant="h3"  gutterBottom>
           Your Bag

@@ -11,7 +11,6 @@ import AppleWatch from "./pages/Applewatch";
 import Account from "./pages/Account";
 import Bag from "./pages/Bag";
 import Footer from "./components/Footer";
-import { ClassNames } from "@emotion/react";
 
 
 function App() {
